@@ -135,11 +135,10 @@ sed -i "s/^\([[:space:]]*POSTGRES_PASSWORD:\).*/\1 ${POSTGRES_PASS}/" docker-com
 sed -i "s/^\([[:space:]]*NEXTAUTH_SECRET:\).*/\1 \"${NEXTAUTH_SECRET}\"/" docker-compose.yml
 
 # NGINX docker
-sed -i '/^[[:space:]]*- zerotier$/{
+sed -i '/^[[:space:]]*- zerotier[[:space:]]*$/{
 a\
 
 r init/conf/nginx_docker
-
 a\
 
 }' docker-compose.yml
@@ -183,6 +182,7 @@ for domain in "${DOMAINS[@]}"; do
 done
 
 ls /etc/letsencrypt/live/
+echo
 
 
 ### START ###
