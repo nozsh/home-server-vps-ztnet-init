@@ -1,0 +1,10 @@
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    restart: unless-stopped
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+    network_mode: "service:zerotier"
+    depends_on:
+      - zerotier
