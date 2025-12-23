@@ -103,7 +103,7 @@ echo "$(CMB === Certbot Email ===)"
 echo $CERTBOT_EMAIL
 echo "$(CGB === Panel Domain ===)"
 echo $PANEL_DOMAIN
-echo "$(CYB === All Domains ===)"
+echo "$(CYB === App Domains ===)"
 echo "${DOMAINS[@]:1}"
 echo
 read -p "OK OR NOT (Y/N): " confirm
