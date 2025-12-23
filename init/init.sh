@@ -175,6 +175,7 @@ echo
 
 
 ### CERTBOT ###
+apt install certbot -y
 for domain in "${DOMAINS[@]}"; do
   echo "SSL for $domain"
   certbot certonly --standalone --non-interactive --agree-tos --email "$CERTBOT_EMAIL" -d "$domain"
