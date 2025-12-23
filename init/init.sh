@@ -37,6 +37,7 @@ CWB() { printf "${BWHITE}%s${NC}" "$*"; }    # bold white
 ### Colors
 
 #############################################################################
+echo
 
 ### USER INPUT ###
 user_input_ip() {
