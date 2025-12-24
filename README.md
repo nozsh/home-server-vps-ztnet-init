@@ -36,3 +36,7 @@ And if the home server loses connect:
 ```bash
 sudo systemctl restart zerotier-one
 ```
+
+---
+
+More details [here](https://nozsh.com/blog/en/tunnel-between-home-server-and-vps-via-zerotier/).
