@@ -1,5 +1,9 @@
+**Links:**
+
 - [ZeroTier](https://www.zerotier.com/)
 - [ZTNet](https://github.com/sinamics/ztnet)
+
+_Tested on VPS running Debian 12._
 
 ---
 
