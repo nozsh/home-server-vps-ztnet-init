@@ -3,7 +3,7 @@
 - [ZeroTier](https://www.zerotier.com/)
 - [ZTNet](https://github.com/sinamics/ztnet)
 
-_Tested on VPS running Debian 12._
+ZTNet installation script on VPS server. _Tested on VPS running Debian 12._
 
 ---
 
@@ -12,6 +12,8 @@ This is an automatic script to install and configure the panel domain, as well a
 ```bash
 git clone https://github.com/nozsh/home-server-vps-ztnet-init ztnet && cd ztnet && bash init/init.sh
 ```
+
+_Text below covers connecting a home server and a VPS to the same ZeroTier network, with the VPS working as controller and client, so `home <---> VPS`._
 
 Create a network in the admin area. Connect to the network on the home server according to the instructions. And on the VPS run:
 
