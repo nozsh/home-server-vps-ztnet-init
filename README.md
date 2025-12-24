@@ -3,7 +3,9 @@
 - [ZeroTier](https://www.zerotier.com/)
 - [ZTNet](https://github.com/sinamics/ztnet)
 
-ZTNet installation script on VPS server. _Tested on VPS running Debian 12._
+ZTNet installation script on VPS server.
+
+_The script is raw and simple, there aren't a bunch of checks and such. Tested on VPS running Debian 12._
 
 ---
 
